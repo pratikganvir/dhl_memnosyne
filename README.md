@@ -9,4 +9,4 @@ Quick guide:
 
 2. require 'dhl_memnosyne'
 
-3. DHLRuby.track(tracking_nunmber, dhl_id, dhl_password) 
+3. DHLRuby.track(tracking_number, dhl_id, dhl_password) 
