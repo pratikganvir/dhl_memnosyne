@@ -4,7 +4,7 @@
 # rails_root/config/dhl_config.yml. User can also can the track method by directly providing DHL id and password as second 
 # and third argument to track method.
 class DHLRuby
-  require 'dhl_memnosyne/credentials/credentials'
+  #require 'dhl_memnosyne/credentials/credentials'
   def self.track(tracking_number, dhl_id, dhl_password)
     require 'dhl_memnosyne/web_interface/dhl_call'
     DhlCall.response(tracking_number, dhl_id, dhl_password)
