@@ -7,9 +7,9 @@ Quick guide:
 
 1. gem install dhl_memnosyne
 
-2. rake install dhl_memnosyne
+2. copy file 'lib/tasks/dhl_config.yml' into 'rails root/config/dhl_config.yml' (Rake task coming soon)
 
-3. Edit dhl_config.yml in 'rails root/config/dhl_config.yml'
+3. Edit dhl_config.yml with correct credentials.
 
 4. require 'dhl_memnosyne'
 
