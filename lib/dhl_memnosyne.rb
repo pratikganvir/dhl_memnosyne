@@ -5,8 +5,8 @@
 # and third argument to track method.
 class DHLRuby
   require 'dhl_memnosyne/credentials/credentials'
-  def self.track(tracking_number,dhl_id=CONFIGURATION["dhl_id"],dhl_password=CONFIGURATION["dhl_password"])
+  def self.track(tracking_number, dhl_id, dhl_password)
     require 'dhl_memnosyne/web_interface/dhl_call'
-    DhlCall.response(tracking_number)
+    DhlCall.response(tracking_number, dhl_id, dhl_password)
   end
 end
