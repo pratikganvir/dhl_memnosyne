@@ -1,0 +1,9 @@
+development:
+  dhl_id: your_dhl_id
+  dhl_password: your_dhl_password
+
+production:
+  inherit: development
+
+test:
+  inherit: development

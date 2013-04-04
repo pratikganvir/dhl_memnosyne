@@ -1,0 +1,9 @@
+development:
+  dhl_id: WORLD_7893
+  dhl_password: WQS1YXMVW9
+
+production:
+  inherit: development
+
+test:
+  inherit: development
