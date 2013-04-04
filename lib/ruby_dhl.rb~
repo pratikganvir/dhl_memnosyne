@@ -1,7 +1,0 @@
-require 'ruby_dhl/credentials/credentials'
-class DHLRuby
-  def self.track(tracking_number)
-    require 'ruby_dhl/web_interface/dhl_call'
-    Dhlgem.get_response(tracking_number)
-  end
-end

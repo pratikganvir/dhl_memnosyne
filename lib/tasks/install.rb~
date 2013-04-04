@@ -1,5 +1,0 @@
-require 'rubygems'
-require 'rubygems-tasks'
-Gem::Tasks.new do |tasks|
-  tasks.console.command = 'echo "Hi"'
-end
